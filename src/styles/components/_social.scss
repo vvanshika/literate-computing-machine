@@ -1,0 +1,25 @@
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social__icon {
+  height: 33px;
+  width: 33px;
+  margin: 0 2vw;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  padding: 0; 
+  border: none;
+  font-size: 33px;
+}
+
+@media (max-width: $desktop-breakpoint) {
+  .social {
+    margin-left: 2vw;
+  }
+  .social__icon {
+    margin: 0 5vw;
+  }
+}

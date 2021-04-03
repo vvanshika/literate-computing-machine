@@ -1,0 +1,21 @@
+.work {
+  font-family: 'Rajdhani', sans-serif;
+  padding: 0 5vw;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+.work__title {
+  font-size: 5vw;
+}
+
+.work__title > span{
+  -webkit-text-stroke: 2px black;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: $desktop-breakpoint) {
+  .work__title {
+    font-size: 10vw;
+  }
+}

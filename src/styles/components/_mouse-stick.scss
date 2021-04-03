@@ -1,0 +1,15 @@
+#mouse-stick {
+  height: 80px;
+  width: 80px;
+  border: 2px solid black;
+  border-radius: 100%;
+  position: fixed; 
+  z-index: 100;
+  transition: transform 0.1s; 
+  pointer-events: none; 
+
+  @media (max-width: $desktop-breakpoint) {
+    display: none;
+  }
+}
+
